@@ -54,6 +54,7 @@ class ViewController: UIViewController {
 
     @objc func keyboardWillHide(notification: Notification)
     {
+        self.view.endEditing(true)
         menuHeightConstraint.constant = 50
         self.view.layoutIfNeeded()
     }
