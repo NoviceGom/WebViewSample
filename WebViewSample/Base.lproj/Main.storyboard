@@ -32,7 +32,7 @@
                             <constraint firstItem="N1k-np-cKk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5m8-57-b53"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K2Y-gc-Yft" secondAttribute="trailing" id="OJ6-Db-rCr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N1k-np-cKk" secondAttribute="trailing" id="V7i-E0-muX"/>
-                            <constraint firstItem="N1k-np-cKk" firstAttribute="top" secondItem="K2Y-gc-Yft" secondAttribute="bottom" id="gcA-cH-L1C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="K2Y-gc-Yft" secondAttribute="bottom" constant="50" id="gcA-cH-L1C"/>
                             <constraint firstItem="K2Y-gc-Yft" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hEa-jW-rSo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N1k-np-cKk" secondAttribute="bottom" id="nwe-s6-DnR"/>
                             <constraint firstItem="K2Y-gc-Yft" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rqj-wT-7qh"/>
@@ -40,8 +40,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="contentsBottomConstraint" destination="gcA-cH-L1C" id="bQ1-jF-ord"/>
                         <outlet property="contentsView" destination="K2Y-gc-Yft" id="OR9-oQ-YNN"/>
-                        <outlet property="menuHeightConstraint" destination="sG3-rO-1Ia" id="6v5-s2-FM6"/>
+                        <outlet property="menuBottomConstraint" destination="nwe-s6-DnR" id="WhM-HZ-Vw4"/>
                         <outlet property="menuView" destination="N1k-np-cKk" id="3H6-uy-8Pc"/>
                     </connections>
                 </viewController>
